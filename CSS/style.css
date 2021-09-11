@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    background: blueviolet;
+    padding: 15px 0;
+}
+.nav{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-section{
+    padding: 50px 0;
+    background: url(../media/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.text-box h1{
+    font-size: 50px;
+    margin-bottom: .9rem;
+}
+.colorized-name{
+    color: rgb(255, 0, 0);
+}
+.text-box h3{
+    font-size: 25px;
+    color: rosybrown;
+    margin-bottom: .5rem;
+}
+.text-box p{
+    font: 15px;
+    margin-bottom: 9px;
+}
+
+.fancy-button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background: white;
+    border: 2px solid;
+    border-radius: 20px;
+    font-weight: 600;
+    color: red;
+    transition: 350ms;
+}
+a:hover{
+    background: linear-gradient(rgb(250, 142, 142),rgb(211, 0, 0)); ;
+    color: rgb(255, 255, 255);
+}
+
+.text-image{
+    width:50%;
+}
+
+img{
+    width: 100%;
+}
+.image-box img{
+    width: 70%;
+}
+.image-box{
+    text-align: right;
+}
+
+#Present-goal{
+    background: url(../media/goal-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-bottom: 30px;
+}
+#Present-goal .image-box{
+    text-align: left;
+}
+#Present-goal h2{
+    font-size: 45px;
+    margin-bottom: .9rem;
+}
+
+
+
+#services{
+    background: url(../media/ser-bg.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+#services h1{
+    font-size: 45px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    color: sienna;
+}
+.services-box{
+    width:  110%;
+    padding: 10px;
+    display: flex; 
+}
+.box{
+    text-align: center;
+    box-shadow: 6px 10px 30px rgb(214, 42, 42);
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.836);
+    margin: 10px;
+    border-top: 5px solid;
+    border-image:linear-gradient(rgb(196, 0, 0), rgb(18, 110, 106));
+    border-image-slice: 1;
+}
+.box h2{
+    font-size: 60px;
+    color: yellowgreen;
+}
+.box h3{
+    font-size: 20px;
+    color: tomato;
+}
+
+
+#experience{
+    padding: 50px 0;
+    background: url(../media/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#experience h1{
+    font-size: 45px;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    color: sienna;
+}
+.experience-box{
+    width: 90%;
+    box-shadow: 6px 6px 20px rgb(248, 28, 28);
+    padding: 65px 40px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.795);
+}
+.full-stack h2{
+    font-size: 26px;
+    color: blueviolet;     
+}
+.full-stack h4{
+    color: chocolate;
+}
+.full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(255, 128, 128), rgb(146, 4, 4));
+    border-image-slice: 1;
+}
+.rookie-dev{
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(116, 0, 0), rgb(255, 135, 135));
+    border-image-slice: 1;
+}
+
+
+footer{
+    background: rgb(255, 128, 128);
+    text-align: center;
+    padding: 25px;
+}
